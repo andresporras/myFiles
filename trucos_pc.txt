@@ -1,0 +1,44 @@
+Lista de redes wi-fi con contraseña almacenada en el computador:
+netsh wlan show profile
+
+seleciona una red wifi y muestra su contraseña:
+netsh wlan show profile name=nombredelperfil key=clear
+
+TRUCOS GIT
+
+eliminar credencial git en windows (necesario si quieres cambiar de cuenta):
+panel de control->cuentas de usuario->administrar credenciales->credenciales de windows->credenciales genéricas y eliminar github keys
+
+ver directorio actual:
+pwd
+
+iniciar nuevo repositorio:
+git init
+
+mapear repositorio de github:
+git remote add origin direccionrepositorio
+
+mostrar el estado actual del repositorio:
+git status
+
+agregar nuevo archivo:
+git add nombreArchivo
+
+darle commit a los cambios y agregar un mensaje:
+git commit -m "aqui el mensaje"
+
+deshacer los cambios de un archivo 
+git checkout -- nombreArchivo
+
+ver cambios en un archivo:
+git diff nombreArchivo
+
+
+
+
+
+
+
+
+
+
